@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url("../images/1102078%20(1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Julee', cursive;
+}
+header{
+    width: 90%;
+    margin: auto;
+    padding: 10px 15px;
+    display: flex;
+}
+nav{
+    flex: 3;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 5px 15px;
+}
+ul li a{
+    color: white;
+    text-shadow: 4px 4px black;
+    text-decoration: none;
+     font-family: 'Julee', cursive;
+}
+.search p{
+    border: 2px solid white;
+    border-radius: 150px;
+    width: 550px;
+    height: 35px;
+    color: white;
+    flex: 2;
+    padding: 5px 15px;
+    text-align: start;
+    font-size: 18px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+.shiva p{
+    display: flex;
+    align-items: flex-end;
+    padding: 5px 15px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+main{
+    width: 75%;
+    height: 500px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    overflow-y: scroll;
+}
+.music {
+    display: flex;
+    width: 80%;
+    height: 200px;
+    margin: 15px auto;
+    align-items: center;
+}
+.music .img img{
+    width: 200px;
+    height: 150px;
+    padding: 5px 15px;
+    border-right: 1px solid white;
+}
+.music .info{
+}
+.music .info .name{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px black;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.music .info .artist{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+.music .info audio{
+    margin-left: 80px;
+    color: blue;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 10px;
+}
+
+.stay{
+    position: fixed;
+    top: 80%;
+    left: 15px;
+}
+.stay p {
+    text-align: center;
+    font-family: 'Julee';
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 4px 4px black;
+}
+
+ .main .days{
+        display: flex;
+        justify-content: center;
+        font-family: 'Carter One', cursive;
+    }
+    .day{
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+        text-shadow: 4px 4px black;
+    }
+    .hmm{
+        padding-top: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        color: white; 
+        text-shadow: 4px 4px black;
+    }
+
+.lock{
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+    font-family: 'Julee';
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-transform: capitalize;
+}
